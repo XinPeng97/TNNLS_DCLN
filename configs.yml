@@ -17,41 +17,5 @@ pubmed:
   gamma: 1.0
   sigma: 0.001
   sample_size: 8000
-  # use_feat_loss: False
-  # use_node_loss: False
-  # sample_size: 2000
-#   batch_size: 1
   seed: 1009
-  max_epoch: 300
-
-amap:
-  gamma: 1.
-  sigma: 0.001
-  sample_size: 7650
-  seed: 1009
-  max_epoch: 300
-
-amac:
-  gamma: 0.1
-  sigma: 0.001
-  sample_size: 2000
-  batch_size: 1
-  seed: 1009
-  max_epoch: 300
-  use_feat_loss: False
-  use_node_loss: False
-  patience: 50
-  hid_units: 512
-  # nb_epochs: 100 
-  # verbose: True
- # 0.1
-corafull:
-  gamma: 0.1
-  sigma: 0.001
-  sample_size: 2000
-  batch_size: 4
-  # use_feat_loss: False
-  # use_node_loss: False
-  seed: 1009
-  patience: 100
   max_epoch: 300
